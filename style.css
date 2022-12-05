@@ -1,0 +1,64 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #f4e914;
+    margin: 0;
+    margin-left: 10px;
+    text-shadow: #19114f 0px 0px 18px;
+    -webkit-text-stroke: 2px #19114f
+}
+
+h2 {
+    text-shadow: #f4e914 0px 0px 8px;
+    color: #95006a;
+}
+
+a {
+    color:blueviolet;
+}
+
+.main-cont p {
+    width: 40em;
+}
+
+body {
+    /* background-color: bisque; */
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.head {
+    align-self: flex-end;
+}
+
+.card {
+    display: flex;
+}
+
+.lists li::marker {
+    /* list-style-type: "ॐ "; */
+    content: "ॐ ";
+    font-weight: 600;
+    color: #0171ae;
+}
+
+figure {
+    float:left;
+    width: 20em;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
