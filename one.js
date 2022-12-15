@@ -1,6 +1,7 @@
 function requestName(){
     do{
         uname = prompt("Как вас зовут?");
+        if(!uname) return;
     }
     while(!confirm(`Вы ввели: ${uname}, верно?`))
     return uname
